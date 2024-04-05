@@ -36,5 +36,5 @@ def get_weather():
         wind_deg=weather["wind"]["deg"])
 
 if __name__ == "__main__":
-    # app.run(host="0.0.0.0", port=8001)
+    # app.run(host="0.0.0.0", port=8001, debug=True)
     serve(app, host="0.0.0.0", port=8001)
